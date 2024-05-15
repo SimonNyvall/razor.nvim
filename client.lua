@@ -194,7 +194,7 @@ function M.spawn(target, on_exit)
                 vim.fn.expand("--sessionId"),
                 vim.fn.expand("1f839afa-c288-4995-8148-48ca90456c6d1712425155204"),
                 vim.fn.expand("--telemetryExtensionPath"),
-                vim.fn.expand("/Users/vitormoreira/.vscode/extensions/ms-dotnettools.csharp-2.23.15-darwin-arm64/.razortelemetry/Microsoft.VisualStudio.DevKit.Razor.dll"),
+                vim.fn.expand("/home/nyvall/.vscode/extensions/ms-dotnettools.csharp-2.28.11-linux-x64/.razortelemetry/Microsoft.VisualStudio.DevKit.Razor.dll"),
         },
 
 		
