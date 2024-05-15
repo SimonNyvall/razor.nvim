@@ -179,23 +179,15 @@ function M.spawn(target, on_exit)
 		--		['rust-analyzer'] = {},
 			
 		-- cmd = hacks.wrap_server_cmd(vim.lsp.rpc.connect("127.0.0.1", 8080)),
-		cmd = { 
-            vim.fn.expand("/home/nyvall/.vscode/extensions/ms-dotnettools.csharp-2.28.11-linux-x64/.razor/rzls"),
-                --vim.fn.expand("--logLevel"),
-                --"0",
-                vim.fn.expand("--projectConfigurationFileName"),
-                "project.razor.vscode.bin",
-                vim.fn.expand("--DelegateToCSharpOnDiagnosticPublish"),
-                "true",
-                vim.fn.expand("--UpdateBuffersForClosedDocuments"),
-                "true",
-                vim.fn.expand("--telemetryLevel"),
-                "all",
-                vim.fn.expand("--sessionId"),
-                vim.fn.expand("1f839afa-c288-4995-8148-48ca90456c6d1712425155204"),
-                vim.fn.expand("--telemetryExtensionPath"),
-                vim.fn.expand("/home/nyvall/.vscode/extensions/ms-dotnettools.csharp-2.28.11-linux-x64/.razortelemetry/Microsoft.VisualStudio.DevKit.Razor.dll"),
-        },
+		cmd = {
+    "/home/nyvall/.vscode/extensions/ms-dotnettools.csharp-2.28.11-linux-x64/.razor/rzls",
+    "--projectConfigurationFileName", "project.razor.vscode.bin",
+    "--DelegateToCSharpOnDiagnosticPublish", "true",
+    "--UpdateBuffersForClosedDocuments", "true",
+    "--telemetryLevel", "all",
+    "--sessionId", "1f839afa-c288-4995-8148-48ca90456c6d1712425155204",
+    "--telemetryExtensionPath", "/home/nyvall/.vscode/extensions/ms-dotnettools.csharp-2.28.11-linux-x64/.razortelemetry/Microsoft.VisualStudio.DevKit.Razor.dll",
+}
 
 		
 		
