@@ -180,7 +180,7 @@ function M.spawn(target, on_exit)
 			
 		-- cmd = hacks.wrap_server_cmd(vim.lsp.rpc.connect("127.0.0.1", 8080)),
 		cmd = { 
-            vim.fn.expand("/Users/vitormoreira/.vscode/extensions/ms-dotnettools.csharp-2.23.15-darwin-arm64/.razor/rzls"),
+            vim.fn.expand("/home/nyvall/.vscode/extensions/ms-dotnettools.csharp-2.28.11-linux-x64/.razor/rzls"),
                 --vim.fn.expand("--logLevel"),
                 --"0",
                 vim.fn.expand("--projectConfigurationFileName"),
